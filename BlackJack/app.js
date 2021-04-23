@@ -207,8 +207,6 @@ $standBtn.on('click', () => {
       compareScores();
 });
 
-});
-
 // Get the modal
 const modal = document.getElementById("myModal");
 
@@ -234,3 +232,4 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+});
