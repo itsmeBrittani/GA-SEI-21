@@ -1,4 +1,3 @@
-$(() => {
 const modal = document.getElementById("myModal");
 
 
@@ -19,6 +18,9 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+$(() => {
+
 
 let $deck = $('<img class="deckCard" id="deckcard">');
 $deck.attr('src', "https://i.ibb.co/VMD00H1/card-back-black.png");
